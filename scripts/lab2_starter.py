@@ -28,6 +28,9 @@ class Cliff:
 
         ######### Your code starts here #########
         # calculation from raw sensor value to distance (Step 3.3 of lab)
+        a = 36229
+        b = -1.268
+        distance = a * (raw ** b)
         
         ######### Your code ends here #########
 
